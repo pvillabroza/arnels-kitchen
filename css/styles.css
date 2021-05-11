@@ -1,0 +1,68 @@
+/*csslint important: false, fallback-colors: false*/
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Start Bootstrap modification */
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.custom-text-warning:hover {
+  color: #ffc107 !important;
+}
+
+/* End Bootstrap modification */
+
+.ubuntu-font{
+  font-family: Ubuntu, sans-serif;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.btn-login{
+  color: rgba(255,255,255,.55);
+}
+
+.btn-login:hover{
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-order-now{
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-order-now:hover{
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #000000;
+}
+
+.bg-img-home {
+  background: url("../images/bg-home-1.jpg") no-repeat center center;
+}
+
+.img-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+/* Media Screen */
+
+@media only screen and (max-width: 991px) {
+  .custom-pt-2 {
+    margin-top: 1rem !important;
+  }
+}
